@@ -1,3 +1,2 @@
 .DS_Store
-datas/schedule.json
-datas/key.json
+*.json
