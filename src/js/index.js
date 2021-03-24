@@ -2,11 +2,9 @@ const clock = document.getElementById("clock")
 let scheduleData
 let classn = "09"
 
-fetch("./../../datas/key.json").then(response => response.json()).then(data => console.log(data)).catch(err => console.log(err))
-
 const url = new URL("https://open.neis.go.kr/hub/misTimetable")
 const params = {
-    KEY: "",
+    KEY: config.key,
     method: 'GET',
     Type: 'json',
     ATPT_OFCDC_SC_CODE: 'B10',
