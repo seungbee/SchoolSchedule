@@ -4,7 +4,7 @@ let classn = "09"
 
 const url = new URL("https://open.neis.go.kr/hub/misTimetable")
 const params = {
-    KEY: "4fa427d3a1ba4311b3f0c0316e500b96",
+    KEY: "",
     method: 'GET',
     Type: 'json',
     ATPT_OFCDC_SC_CODE: 'B10',
