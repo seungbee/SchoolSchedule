@@ -2,7 +2,7 @@ const clock = document.getElementById("clock")
 let scheduleData
 let classn = "09"
 
-fetch("../../datas/key.json").then(response => response.json()).then(data => console.log(data)).catch(err => console.log(err))
+fetch("./../../datas/key.json").then(response => response.json()).then(data => console.log(data)).catch(err => console.log(err))
 
 const url = new URL("https://open.neis.go.kr/hub/misTimetable")
 const params = {
